@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?famtly-Nunito+Sans:wght@2006display=swap');
+:root {
+  --font-style: 'Nunito Sans', sans-serif;
+}
+body {
+  font-family: var( --font-style); 
+  background-color: #1C2A44;
+}
+
+ul {
+  margin: 5%;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 25px 0; border-radius: 25px;
+  border: 0.1px solid #099FFF; 
+  background-color: #18181B;
+  box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li {
+font-family: Cooper Black;
+margin: auto; 
+color: white; 
+font-size: 20px; 
+cursor: pointer;
+}
+
+li:after {
+display: block;
+}
+
+li:hover:after {
+transform: scaleX(1);
+}
+
+#contenido{
+  margin:0 auto;
+  width: 600px;
+}
+
+ table{
+  text-align: center;
+  color: white;
+  background-color: #18243a
+}
+
+h1 {
+  color: #a60909;
+  font-family: Cooper Black;
+  font-weight: normal;
+}
+
+h3{
+  color: #2fe0ea;
+  font-family: Cooper Black;
+  font-weight: normal;
+}
+
+p{
+  text-align: center;
+  color: #ffffff;
+  font-family: Cooper Black;
+  font-weight: normal;
+}
